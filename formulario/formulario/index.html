@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css"><!--este es indicando la hoja de estilo de css-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet"> <!--este es la fuente del tipo de letras-->
+    
+    <title>Formulario</title> <!--titulo de la pestaña-->
+</head>
+<body>
+    <form action="https://formsubmit.co/dxtr1998@gmail.com" method="POST"><!--esto quiere decir que todo lo hecho se enviara al email indicado-->
+        <h1>Formulario de Contato</h1>  
+
+        <input type="text" name="name" placeholder="Nome" required>  <!--input tex es una caja de texto--- placeholder es un mensaje dentro de la caja para indicar lo que debe escribirse-->
+
+        <input type="email" name="email" placeholder="Email" required>,<!--caja de tipo email-->
+
+        <textarea name="menssage" placeholder="Digite sua mensagem..." required></textarea> <!--una caja de para escribir un mensaje-->
+
+        <button type="submit">Send</button> <!--boton de enviar-->
+
+        <input type="hidden" name="_captcha" value="false"> <!-- para que no aparezca el captcha de verificacion de robot-->
+
+        <input type="hidden" name="_next" value="https://telaformularioobrigadodetst.netlify.app/"> <!--se indica la proxima pagina-->
+
+
+        
+   </form>
+  
+</body>
+</html>

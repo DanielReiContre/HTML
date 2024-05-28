@@ -1,0 +1,74 @@
+*{ /* todo lo que esta en *{} es visible en la pagina completa**/
+margin: 0%;
+padding: 0%;
+box-sizing: border-box;
+outline: none;/* todos estes son los margenes que se llevan a 0 para evitar errores en
+los diferentes navegadores**/
+  font-family: "Roboto Mono", monospace; /* fuente utilizada**/
+}
+body{
+    background: linear-gradient(to right, #dc2430, #7b4397); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+form, div {
+    width: 40%; /* va a ocupar el 40% de la pantalla**/
+    min-width: 350px; /*minimo de largura de la pantalla**/
+    background-color: whitesmoke;
+    border-radius: 10px;
+    box-shadow: 12px 12px 7px 0px rgba(0,0,0,0.33);
+    margin: 100px auto; /* el primer valor es de arriba y abajo y el segundo es de los lados**/
+    padding: 25px;
+    
+}
+
+input, textarea {
+    min-width: 320px;
+    display: block; /* para cada uno tener una linea**/
+    margin: 0 auto; /*este tipo de margen es mas para centralizar**/
+    border-radius: 5px;
+    border: 1px solid #c1c1c1 ;
+    margin-top: 20px;
+    height: 40px;
+    padding-left: 10px; /* distanciar del borde izquierdo**/
+
+}
+
+textarea{
+padding-top: 10px;
+height: 200px ;
+
+}
+
+button{
+    display: block; /*para ocupar la linea entera y poder centralizar**/
+    margin: 20px auto;
+    height: 40px; /*altura del boton en este caso*/
+    width: 70%;/*largura*/
+    min-width: 320px;/*largura minima*/
+    border: none; /*sin las lineas de bordes*/
+    border-radius: 5px;
+    background: #7b4397;
+    color: white; /*color del texto*/
+    cursor: pointer;
+
+}
+
+button:hover { /*para que suceda algo cuando se pase el cursor por encima del boton**/
+    opacity: 0.8; /*mientras mas bajo el numero mas transaparente*/
+}
+
+button:active{/*para hacer una accion cuando clica en el boton*/
+    opacity: 0.6;
+
+}
+
+h1{
+    text-align: center; /*alinear texto*/
+
+}
+
+p{
+    text-align: center;
+    margin: 10px;
+
+}
